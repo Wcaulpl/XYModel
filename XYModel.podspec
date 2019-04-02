@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XYModel"
   s.version      = "0.0.1"
-  s.summary      = "修改 YYModel 库 使之能够兼容 无数据接收  将 0 与 NaN inf 等区分开."
+  s.summary      = "修改 YYModel 库 使之能够兼容 无数据接收"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-修改 YYModel 库 使之能够兼容 无数据接收  将 0 与 NaN inf 等区分开
+    修改 YYModel 库 使之能够兼容 无数据接收  将 0 与 NaN inf 等区分开
                       DESC
 
   s.homepage     = "https://github.com/Wcaulpl/XYModel"
