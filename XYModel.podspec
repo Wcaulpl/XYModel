@@ -25,14 +25,13 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  修改 YYModel 库 使之能够兼容 无数据接收  将 0 与 NaN inf 等区分开
+修改 YYModel 库 使之能够兼容 无数据接收  将 0 与 NaN inf 等区分开
                       DESC
 
   s.homepage     = "https://github.com/Wcaulpl/XYModel"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "Wcaulpl" => "slzxy14@163.com" }
+  s.ios.deployment_target = "10.0"
   s.source       = { :git => "https://github.com/Wcaulpl/XYModel.git", :tag => "#{s.version}" }
   s.source_files  = "XYModel", "XYModel/*.{h,m}"
-  s.public_header_files = "XYModel/XYModel.h"
-
 end
