@@ -41,8 +41,8 @@
     NSData *JSONData = [parseJason dataUsingEncoding:NSUTF8StringEncoding];
     NSDictionary *dataDic = [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingMutableLeaves error:nil];
     NSLog(@"JSONData == %@", dataDic);
-    XYDemoModel *model = [XYDemoModel yy_modelWithJSON:dataDic];
-    NSLog(@"ModelData == %@", [model yy_modelDescription]);
+    XYDemoModel *model = [XYDemoModel xy_modelWithJSON:dataDic];
+    NSLog(@"ModelData == %@", [model xy_modelDescription]);
 }
 
 

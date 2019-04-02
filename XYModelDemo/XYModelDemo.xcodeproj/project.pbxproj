@@ -16,7 +16,7 @@
 		033CC4C32252F83900F7AD82 /* XYModelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033CC4C22252F83900F7AD82 /* XYModelDemoTests.m */; };
 		033CC4CE2252F83900F7AD82 /* XYModelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033CC4CD2252F83900F7AD82 /* XYModelDemoUITests.m */; };
 		033CC4E12253032600F7AD82 /* NSObject+XYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 033CC4DD2253032500F7AD82 /* NSObject+XYModel.m */; };
-		033CC4E22253032600F7AD82 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 033CC4DF2253032500F7AD82 /* YYClassInfo.m */; };
+		033CC4E22253032600F7AD82 /* XYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 033CC4DF2253032500F7AD82 /* XYClassInfo.m */; };
 		033CC4E4225306EC00F7AD82 /* Directions.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 033CC4E3225304AD00F7AD82 /* Directions.geojson */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +54,10 @@
 		033CC4C92252F83900F7AD82 /* XYModelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYModelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033CC4CD2252F83900F7AD82 /* XYModelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYModelDemoUITests.m; sourceTree = "<group>"; };
 		033CC4CF2252F83900F7AD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		033CC4DC2253032500F7AD82 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		033CC4DC2253032500F7AD82 /* XYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYClassInfo.h; sourceTree = "<group>"; };
 		033CC4DD2253032500F7AD82 /* NSObject+XYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XYModel.m"; sourceTree = "<group>"; };
 		033CC4DE2253032500F7AD82 /* XYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYModel.h; sourceTree = "<group>"; };
-		033CC4DF2253032500F7AD82 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		033CC4DF2253032500F7AD82 /* XYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYClassInfo.m; sourceTree = "<group>"; };
 		033CC4E02253032500F7AD82 /* NSObject+XYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XYModel.h"; sourceTree = "<group>"; };
 		033CC4E3225304AD00F7AD82 /* Directions.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Directions.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,8 +149,8 @@
 				033CC4DE2253032500F7AD82 /* XYModel.h */,
 				033CC4E02253032500F7AD82 /* NSObject+XYModel.h */,
 				033CC4DD2253032500F7AD82 /* NSObject+XYModel.m */,
-				033CC4DC2253032500F7AD82 /* YYClassInfo.h */,
-				033CC4DF2253032500F7AD82 /* YYClassInfo.m */,
+				033CC4DC2253032500F7AD82 /* XYClassInfo.h */,
+				033CC4DF2253032500F7AD82 /* XYClassInfo.m */,
 			);
 			name = XYModel;
 			path = ../../XYModel;
@@ -290,7 +290,7 @@
 				033CC4AE2252F83700F7AD82 /* ViewController.m in Sources */,
 				033CC4B92252F83900F7AD82 /* main.m in Sources */,
 				033CC4E12253032600F7AD82 /* NSObject+XYModel.m in Sources */,
-				033CC4E22253032600F7AD82 /* YYClassInfo.m in Sources */,
+				033CC4E22253032600F7AD82 /* XYClassInfo.m in Sources */,
 				033CC4AB2252F83700F7AD82 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
