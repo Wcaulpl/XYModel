@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XYModel"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "修改 YYModel 库 使之能够兼容 无数据接收"
 
   # This description is used to generate tags and improve search results.
