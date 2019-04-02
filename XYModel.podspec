@@ -24,8 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = <<-DESC DESC
 
   s.homepage     = "https://github.com/Wcaulpl/XYModel"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
