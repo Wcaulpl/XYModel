@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XYModel"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "修改 YYModel 库 使之能够兼容 无数据接收"
 
   # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                       DESC
 
   s.homepage     = "https://github.com/Wcaulpl/XYModel"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Wcaulpl" => "slzxy14@163.com" }
   s.ios.deployment_target = "10.0"
   s.source       = { :git => "https://github.com/Wcaulpl/XYModel.git", :tag => "#{s.version}" }
